@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA8B1B3B25503365004BD337 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8B1B3A25503364004BD337 /* Silom.ttf */; };
+		FA8B1B3E2550362F004BD337 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B1B3D2550362F004BD337 /* MapVC.swift */; };
 		FADE11AD254C2881003C2EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE11AC254C2881003C2EB6 /* AppDelegate.swift */; };
 		FADE11AF254C2881003C2EB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE11AE254C2881003C2EB6 /* SceneDelegate.swift */; };
-		FADE11B1254C2881003C2EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE11B0254C2881003C2EB6 /* ViewController.swift */; };
+		FADE11B1254C2881003C2EB6 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE11B0254C2881003C2EB6 /* LocationVC.swift */; };
 		FADE11B4254C2881003C2EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE11B2254C2881003C2EB6 /* Main.storyboard */; };
 		FADE11B6254C2883003C2EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADE11B5254C2883003C2EB6 /* Assets.xcassets */; };
 		FADE11B9254C2883003C2EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE11B7254C2883003C2EB6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA8B1B3A25503364004BD337 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = SOURCE_ROOT; };
+		FA8B1B3D2550362F004BD337 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		FADE11A9254C2881003C2EB6 /* Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADE11AC254C2881003C2EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADE11AE254C2881003C2EB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FADE11B0254C2881003C2EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADE11B0254C2881003C2EB6 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		FADE11B3254C2881003C2EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FADE11B5254C2883003C2EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADE11B8254C2883003C2EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA8B1B39255032E2004BD337 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B1B3A25503364004BD337 /* Silom.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FADE11A0254C2881003C2EB6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +68,11 @@
 		FADE11AB254C2881003C2EB6 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				FA8B1B39255032E2004BD337 /* Fonts */,
 				FADE11AC254C2881003C2EB6 /* AppDelegate.swift */,
 				FADE11AE254C2881003C2EB6 /* SceneDelegate.swift */,
-				FADE11B0254C2881003C2EB6 /* ViewController.swift */,
+				FADE11B0254C2881003C2EB6 /* LocationVC.swift */,
+				FA8B1B3D2550362F004BD337 /* MapVC.swift */,
 				FADE11B2254C2881003C2EB6 /* Main.storyboard */,
 				FADE11B5254C2883003C2EB6 /* Assets.xcassets */,
 				FADE11B7254C2883003C2EB6 /* LaunchScreen.storyboard */,
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADE11B9254C2883003C2EB6 /* LaunchScreen.storyboard in Resources */,
+				FA8B1B3B25503365004BD337 /* Silom.ttf in Resources */,
 				FADE11B6254C2883003C2EB6 /* Assets.xcassets in Resources */,
 				FADE11B4254C2881003C2EB6 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADE11B1254C2881003C2EB6 /* ViewController.swift in Sources */,
+				FADE11B1254C2881003C2EB6 /* LocationVC.swift in Sources */,
+				FA8B1B3E2550362F004BD337 /* MapVC.swift in Sources */,
 				FADE11AD254C2881003C2EB6 /* AppDelegate.swift in Sources */,
 				FADE11AF254C2881003C2EB6 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,7 +308,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.Maps";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chernov-Artem.Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +326,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.Maps";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chernov-Artem.Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Maps
 //
-//  Created by Macbook Pro on 30.10.2020.
+//  Created by nikita on 12.01.2021.
 //
 
 import UIKit
